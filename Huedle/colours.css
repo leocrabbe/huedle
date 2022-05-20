@@ -1,0 +1,209 @@
+body {
+  font-family: "Century Gothic", Helvetica, sans-serif;
+}
+
+main {
+}
+
+h1, h2, h3 {
+  margin-bottom: 15px;
+  text-align: center;
+
+}
+
+.wrong-colour {
+  border: 4px solid red !important;
+
+}
+
+.correct-colour {
+  border: 4px solid green !important;
+}
+
+#message {
+  margin-top: 40px;
+}
+
+#colour-box {
+  border: 7px solid black;
+  border-radius: 8px;
+
+  height: 200px;
+  width: 200px;
+  margin: auto;
+  margin-top: 20px;
+
+}
+
+.small-colour-box {
+  border: 3px solid black;
+  border-radius: 8px;
+
+  height: 90px;
+  width: 90px;
+
+  margin: 10px;
+
+}
+
+.hidden {
+  display: none !important;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+  margin-top: 60px;
+  /* background-color: #D4B6AF; */
+  height: 40px;
+  width: 600;
+
+  /* border: 3px solid black; */
+}
+
+.selected {
+  background-color: #848484;
+  color: white;
+}
+
+#answer-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: auto;
+  /* border: 3px solid black; */
+  min-height: 80px;
+  width: 600;
+  margin-top: 20px;
+  overflow: auto;
+  padding: 10px;
+  border-radius: 10px;
+
+}
+
+#colour-container {
+  display: flex;
+  justify-content: space-around;
+  overflow: auto;
+  flex-wrap: wrap;
+}
+
+
+
+.easy_option {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 20px;
+}
+
+#genNew {
+  height: 100px;
+
+}
+
+.easy_option {
+  margin: 5px;
+}
+
+.correct {
+  background-color: #87b847;
+}
+
+.wrong {
+  background-color: #c85237;
+}
+
+
+
+@import url("https://fonts.googleapis.com/css?family=Ubuntu|Ubuntu+Mono");
+body {
+  font: 1.2rem 'Ubuntu', sans-serif;
+}
+
+#inputbox {
+  /* display: inline-block; */
+  margin-right: 5px;
+
+  border: none;
+  padding: 0;
+  /* width: 10.5ch; */
+  /* background: repeating-linear-gradient(90deg, dimgrey 0, dimgrey 1ch, transparent 0, transparent 1.5ch) 0 100%/ 7ch 2px no-repeat; */
+  font: 1.2rem 'Ubuntu Mono', monospace;
+  letter-spacing: 0.5ch;
+  text-transform: uppercase;
+}
+#inputbox:focus {
+  outline: none;
+  color: black;
+}
+
+#submit {
+  margin-left: 5px;
+}
+
+#input {
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
+
+/* CSS */
+button {
+  appearance: none;
+  background-color: #d7d7d6;
+  border: 1px solid rgba(27, 31, 35, 0.15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, 0.04) 0 1px 0, rgba(255, 255, 255, 0.25) 0 1px 0 inset;
+  box-sizing: border-box;
+  color: #24292E;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  list-style: none;
+  padding: 6px 16px;
+  position: relative;
+  transition: background-color 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+  word-wrap: break-word;
+}
+
+button:hover {
+  text-decoration: none;
+  transition-duration: 0.1s;
+}
+
+button:disabled {
+  background-color: #FAFBFC;
+  border-color: rgba(27, 31, 35, 0.15);
+  color: #959DA5;
+  cursor: default;
+}
+
+button:active {
+  background-color: #EDEFF2;
+  box-shadow: rgba(225, 228, 232, 0.2) 0 1px 0 inset;
+  transition: none 0s;
+}
+
+button:focus {
+  outline: 1px transparent;
+}
+
+button:before {
+  display: none;
+}
+
+button:-webkit-details-marker {
+  display: none;
+}

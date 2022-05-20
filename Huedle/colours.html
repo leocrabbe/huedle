@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Huedle</title>
+    <link href="colours.css" rel="stylesheet" />
+    <script language="JavaScript" src="colours.js"></script>
+    <!-- <script>
+
+      document.getElementById('genNew').addEventListener('click', randomColour)
+
+      function randomColour() {
+        document.getElementById('colour-box').style.backgroundColor = "#D4B6AF";
+
+      }
+    </script> -->
+  </head>
+  <body>
+    <header>
+      <h1 id="title">Huedle</h1>
+    </header>
+    <main>
+      <h2 id="what">What is this colour?</h2>
+      <div id="colour-box">
+
+      </div>
+
+
+      <div class="button-container">
+        <button class="difficulty" id="easy">Name Mode</button>
+        <button class= "difficulty" id="medium">Colour Mode</button>
+        <button class= "difficulty" id="hard">Impossible Mode</button>
+      </div>
+      <h2 id="message">؜؜      </h2>
+      <div class="hidden" id="answer-container">
+        <button class="easy_option" id="1">________</button>
+        <button class="easy_option" id="2">________</button>
+        <button class="easy_option" id="3">________</button>
+        <button class="easy_option" id="4">________</button>
+        <button class="easy_option" id="5">________</button>
+        <!-- <button class="easy_option" id="6">________</button>
+        <button class="easy_option" id="7">________</button>
+        <button class="easy_option" id="8">________</button>
+        <button class="easy_option" id="9">________</button>
+        <button class="easy_option" id="10">________</button>
+        <button class="easy_option" id="11">________</button>
+        <button class="easy_option" id="12">________</button>
+        <button class="easy_option" id="13">________</button>
+        <button class="easy_option" id="14">________</button>
+        <button class="easy_option" id="15">________</button> -->
+
+      </div>
+      <div class="hidden" id="colour-container">
+        <div class="small-colour-box" id="A"></div>
+        <div class="small-colour-box" id="B"></div>
+        <div class="small-colour-box" id="C"></div>
+        <div class="small-colour-box" id="D"></div>
+        <div class="small-colour-box" id="E"></div>
+        <div class="small-colour-box" id="F"></div>
+        <div class="small-colour-box" id="G"></div>
+        <div class="small-colour-box" id="H"></div>
+        <div class="small-colour-box" id="I"></div>
+        <div class="small-colour-box" id="J"></div>
+        <div class="small-colour-box" id="K"></div>
+        <div class="small-colour-box" id="L"></div>
+        <div class="small-colour-box" id="M"></div>
+        <div class="small-colour-box" id="N"></div>
+        <div class="small-colour-box" id="O"></div>
+      </div>
+      <div id="input" class="hidden">
+        <input type="text" value="" id="inputbox"/>
+        <input type="submit" value="Submit" id="submit">
+      </div>
+
+      <h3 class="hidden" id="guesses">Guesses: <span id="guess-number">0</span><h3>
+    </main>
+  </body>
+</html>
